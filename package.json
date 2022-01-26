@@ -1,0 +1,35 @@
+{
+  "homepage": "http://sarah27h.github.io/react-get-weather-app",
+  "name": "react-get-weather-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.5.7",
+    "es6-promise": "^4.2.5",
+    "gh-pages": "^2.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "raf": "^3.4.1",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
