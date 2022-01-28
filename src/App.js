@@ -7,7 +7,7 @@ import WeatherDetails from './components/WeatherDetails';
 import Footer from './components/Footer';
 import {COUNTRIES_OPTIONS} from './data/ISO_CountryList';
 
-const API_KEY = '0288342cb965e22a6c5075ba398a1b3d';
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 class App extends Component {
 
